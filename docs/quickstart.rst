@@ -103,7 +103,7 @@ The most basic code, for those familiar with openAI gym (a well-known framework 
 
     # proceed as you would any open ai gym loop
     nb_episode = 10
-    for _ in range(nb_episde):
+    for _ in range(nb_episode):
         # you perform in this case 10 different episodes
         obs = env.reset()
         reward = env.reward_range[0]
